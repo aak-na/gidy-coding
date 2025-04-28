@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Feedback Form</h1>
+    <form id="feedbackForm">
+      <input type="text" id="name" placeholder="Your Name" required>
+      <input type="email" id="email" placeholder="Your Email" required>
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Submit Feedback</button>
+    </form>
+    <p id="responseMessage"></p>
+    
+
+  
+    <div id="feedbackList">
+      <div class="feedback-card" data-feedback-id="1">
+        <p class="feedback-message">This is a feedback message.</p>
+        <button class="delete-feedback-btn">Delete</button>
+      </div>
+      <!-- More feedback cards -->
+    </div>
+    
+    
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

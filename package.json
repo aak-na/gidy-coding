@@ -1,0 +1,18 @@
+{
+  "name": "feedback-collector",
+  "version": "1.0.0",
+  "description": "Feedback Collector Application",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  },
+  "author": "",
+  "license": "ISC"
+}
